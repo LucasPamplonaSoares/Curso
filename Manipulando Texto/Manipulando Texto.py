@@ -1,0 +1,15 @@
+frase = 'Curso de Python'
+print(frase[3])
+print(frase[1:])
+print(frase[:4])
+print(frase[1::2])
+print(frase.count('o'))
+print(frase.upper())
+print(len(frase))
+print(frase.replace('Python', 'Java'))  # frase = frase.replace('Python', 'Java')
+print(frase.find('e'))
+# print(frase.lower('C'))
+dividido = frase.split()
+print(frase.split())
+print(dividido[0])  # print(dividido[0]) Ele vai selecionar a palavra pela posição
+# print(dividido[0, 3])
